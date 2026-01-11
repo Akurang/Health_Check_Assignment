@@ -12,7 +12,7 @@ app = Flask(__name__)
 endpoints = {
     'a': 'https://httpbin.org/status/200',
     'b': 'https://api.github.com',
-    'c': 'https://this-does-not-exist-12345.com/fake'}
+    'c': 'https://error-api-for-test.com/fake'}
 
 #metrics for traffic and errors
 metrics_storage = {
